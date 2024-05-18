@@ -36,33 +36,7 @@ export const links = [
   },
 ] as const;
 
-// experiencia title, location, desc, icon, data
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
+
 
 // skills
 export const skillsData = [
@@ -105,7 +79,7 @@ export const projects = [
   {
     id: 1,
     title: "Dashboard Study",
-    des: "Contem opções de inumeras ferramentes para ajudas nos estudos e produtividade",
+    des: "Contem opções de inumeras ferramentes para ajudas nos estudos e produtividade.",
     img: "https://i.imgur.com/5iE9Tde.png",
     iconLists: ["./agl.svg", "/ts.svg",],
     link: "https://github.com/MichaelDu4rte/PersonalDashboard",
@@ -122,7 +96,7 @@ export const projects = [
   {
     id: 3,
     title: "Controle Financeiro ",
-    des: "Dashboard para controle financeiro desenvolvido para um cliente freelancer",
+    des: "Dashboard para controle financeiro desenvolvido para um cliente freelancer.",
     img: "https://i.imgur.com/0RaAG7z.png",
     iconLists: ["./agl.svg", "/ts.svg"],
     link: "https://github.com/MichaelDu4rte/BudgetPlanner",
@@ -152,7 +126,7 @@ export const workExperience = [
   {
     id: 2,
     title: "Rede Social - Md Social",
-    desc: "Criei uma rede social completa, back-end, front-end, design. Usando também banco de dados. Proporcionando uma experiência agradável e segura",
+    desc: "Criei uma rede social completa, back-end, front-end, design. Usando também banco de dados. Proporcionando uma experiência agradável e segura.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
@@ -166,7 +140,7 @@ export const workExperience = [
   {
     id: 4,
     title: "Segurança e Manutenção",
-    desc: "Auxilei na segurança e manutenção de sites. Garatindo uma experiência melhor ao clinte final.",
+    desc: "Auxilei na segurança e manutenção de sites. Garatindo uma experiência melhor ao cliente final.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
