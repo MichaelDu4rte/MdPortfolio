@@ -88,7 +88,7 @@ export const projects = [
   {
     id: 2,
     title: "Escritório Advocacia",
-    des: "Apresentação, envio de emails, agendamento de consultas e também foi utilizado api.",
+    des: "Apresentação, envio de emails, agendamento de consultas e uso de api.",
     img: "https://i.imgur.com/5uPM6vY.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
     link: "https://escritorio-xjtc.vercel.app/",
