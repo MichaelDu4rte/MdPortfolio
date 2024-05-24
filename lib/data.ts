@@ -65,7 +65,7 @@ export const achievementsList = [
   },
   {
     metric: "Anos de experiencia",
-    value: "5",
+    value: "3",
     postfix: "+",
   },
   {
@@ -79,7 +79,7 @@ export const projects = [
   {
     id: 1,
     title: "Dashboard Study",
-    des: "Contem opções de inumeras ferramentes para ajudas nos estudos e produtividade.",
+    des: "Contem opções de inumeras ferramentes para ajudas nos estudos e produtividade",
     img: "https://i.imgur.com/5iE9Tde.png",
     iconLists: ["./agl.svg", "/ts.svg",],
     link: "https://github.com/MichaelDu4rte/PersonalDashboard",
@@ -87,30 +87,46 @@ export const projects = [
  
   {
     id: 2,
-    title: "Lucre Com Licitações",
-    des: "Web site desenvolvido para uma empresa de Licitações.",
-    img: "https://i.imgur.com/vLmIvtd.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
-    link: "https://github.com/MichaelDu4rte/LucreLicitacoes",
+    title: "Escritorio Advocacia",
+    des: "Desenvolvido para um escritorio de advocacia, foi atualizado api.",
+    img: "https://i.imgur.com/5uPM6vY.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://escritorio-xjtc.vercel.app/",
   },
   {
     id: 3,
+    title: "Mentoria Ayrel",
+    des: "Site para divulgacão de mentorida para um medico.",
+    img: "https://i.imgur.com/CFRZGnN.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://mentoria-medica.vercel.app/",
+  },
+  {
+    id: 4,
     title: "Controle Financeiro ",
-    des: "Dashboard para controle financeiro desenvolvido para um cliente freelancer.",
+    des: "Dashboard para controle financeiro desenvolvido para um cliente freelancer",
     img: "https://i.imgur.com/0RaAG7z.png",
     iconLists: ["./agl.svg", "/ts.svg"],
     link: "https://github.com/MichaelDu4rte/BudgetPlanner",
   },
   {
-    id: 4,
+    id: 5,
     title: "MD Social",
     des: "Uma rede social completa, desenvolvido em php e usando banco de dados.",
     img: "https://i.imgur.com/BGLsP74.png",
     iconLists: ["/php.svg"],
     link: "https://github.com/MichaelDu4rte/ScribbliSocial?tab=readme-ov-file",
   },
+  {
+    id: 6,
+    title: "Lucre Com Licitações",
+    des: "Web site desenvolvido para uma empresa de Licitações.",
+    img: "https://i.imgur.com/vLmIvtd.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", ],
+    link: "https://github.com/MichaelDu4rte/LucreLicitacoes",
+  },
  
-];
+] as const;
 
 
 
@@ -144,5 +160,5 @@ export const workExperience = [
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
-];
+] as const; ;
 
